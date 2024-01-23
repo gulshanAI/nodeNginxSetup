@@ -31,7 +31,7 @@ server {
 
 server {
     listen 80;
-    server_name \$domain;
+    server_name $domain;
 
     return 301 \$scheme://www.$domain\$request_uri;
 }
