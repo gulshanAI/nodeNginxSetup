@@ -4,7 +4,7 @@ echo "Enter the config name"
 read confName
 echo "Enter Domain name"
 read domain
-echo "Enter Port"https://listmydrug.com/
+echo "Enter Port"
 read port
 
 v="$(cat <<-EOF
